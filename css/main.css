@@ -108,21 +108,32 @@ header ul li a:hover, .active {
 }
 
 footer {
-    padding: 12px 0;
-    background-color: #777;
+    padding: 5px 0;
+    height: 60px;
+    background: linear-gradient(to top, #777, transparent);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+/* .footer::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to top, #200016, transparent); /*Synatx error made me wait 20 minutes */
+
 footer span {
-    color: #1f2544;
+    color: #687ad3;
 
 }
-
+/* 
 footer h3 {
-    margin: -15px;
+    /* margin: -15px;
 }
+         */
+
 footer small {
     color: rgb(255, 255, 255);
 }
